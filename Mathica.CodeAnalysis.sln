@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalysis", "src\CodeAnalysis\CodeAnalysis.csproj", "{034B2D0E-4BAC-462C-A512-3FBB78B74CB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code analysis", "code analysis", "{0AE42461-85CD-4608-A340-37BDE4F11846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{B7B48DA3-D018-48F4-98DB-39F9A7070EEA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\readme.md = .github\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,8 @@ Global
 		{034B2D0E-4BAC-462C-A512-3FBB78B74CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034B2D0E-4BAC-462C-A512-3FBB78B74CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034B2D0E-4BAC-462C-A512-3FBB78B74CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{034B2D0E-4BAC-462C-A512-3FBB78B74CB8} = {0AE42461-85CD-4608-A340-37BDE4F11846}
 	EndGlobalSection
 EndGlobal
