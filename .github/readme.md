@@ -1,4 +1,4 @@
-[![NuGet](https://img.shields.io/nuget/v/Mathica.CodeAnalysis.svg)](https://www.nuget.org/packages/Mathica.CodeAnalysis/)
+[![NuGet](https://img.shields.io/nuget/v/Mathica.CodeAnalysis)](https://www.nuget.org/packages/Mathica.CodeAnalysis/)
 
 # mathica codeanalysis
 
